@@ -226,7 +226,7 @@ body {
     gap: 1rem;
   }
   #card > #output-container {
-    font-size: 5rem;
+    font-size: 3rem;
     height: 63%;
     padding: 4rem 0 0 3rem;
   }
