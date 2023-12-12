@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- IE Compatibility -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- description -->
+    <meta name="description" content="Age calculator app" />
+    <!-- keywords -->
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Frontend Mentor, age calculator app"
+    />
+    <!-- Normailze CSS File -->
+    <link rel="stylesheet" href="./CSS/normalize.css" />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <!-- Icon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <!-- Title -->
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body class="flex1">
+    <main id="card" class="flex2">
+      <div id="input-container" class="flex3">
+        <div class="box">
+          <label class="date-label" for="day-input">DAY</label>
+          <input
+            type="text"
+            id="day-input"
+            class="date-input"
+            placeholder="DD"
+          />
+        </div>
+        <div class="box">
+          <label class="date-label" for="month-input">MONTH</label>
+          <input
+            type="text"
+            id="month-input"
+            class="date-input"
+            placeholder="MM"
+          />
+        </div>
+        <div class="box">
+          <label class="date-label" for="year-input">YEAR</label>
+          <input
+            type="text"
+            id="year-input"
+            class="date-input"
+            placeholder="YYYY"
+          />
+        </div>
+      </div>
+      <span id="line"></span>
+      <div id="output-container">
+        <p><span id="year-ouput" class="output">- -</span>years</p>
+        <p><span id="month-ouput" class="output">- -</span>months</p>
+        <p><span id="day-ouput" class="output">- -</span>days</p>
+      </div>
+      <div id="button" class="flex1">
+        <img src="./assets/images/icon-arrow.svg" alt="arrow button" />
+      </div>
+    </main>
+    <footer id="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#" target="_blank">Ahmed Hanye</a>.
+    </footer>
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
