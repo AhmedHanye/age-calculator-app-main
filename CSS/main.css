@@ -1,7 +1,7 @@
 /* ---- Variables ---- */
 :root {
   /* ---- Primary Colors ---- */
-  --color-primary: hsl(259, 100%, 65%);
+  --color-primary: hsl(259, 98%, 62%);
   --color-primary-light: hsl(0, 93%, 57%);
   /* ---- Neutral Colors ---- */
   --color-white: hsl(0, 0%, 100%);
@@ -178,13 +178,13 @@ body {
   margin: 0.5rem;
 }
 #attribution > a {
-  color: var(--color-primary-light);
   display: inline-block;
+  color: var(--color-primary);
   text-decoration: none;
   margin-left: 0.5rem;
 }
 #attribution > a:hover {
-  color: var(--color-primary);
+  color: var(--color-primary-light);
 }
 /* ---- Media Queries ---- */
 
